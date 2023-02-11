@@ -18,7 +18,7 @@ function App() {
 
         setCoinsData(response.data);
   }, []);
-  //console.log(coinsData)
+  //console.log(coinsDatas)
   //console.log(CoinsData.data?.[0].image);
   const lastPostIndex = CurrentPage * PostPerPage;
   const firstPostIndex = lastPostIndex - PostPerPage;
